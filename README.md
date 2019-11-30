@@ -28,7 +28,8 @@
 - Working on the content for the website to keep it as informative as possible but also not too boring.
 - Style and align properly in the website with CSS.
 - Fix writing errors, code, add new images if necessary.
-- Work on the App in javascript.
+- Work on the Quiz App
+- Work on the .json server.
 
 # Project Rolles
 - Project leader: Sofiane Bounab.
