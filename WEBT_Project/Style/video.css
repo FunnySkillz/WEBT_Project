@@ -1,0 +1,15 @@
+.section h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  background: #fff;
+  padding: 20px;
+  margin: 15px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

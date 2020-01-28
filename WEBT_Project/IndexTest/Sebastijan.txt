@@ -1,0 +1,37 @@
+
+<span id="a">sebi@funnyskillz</span>:<span id="b">~</span><span id="c">$</span> cd Funnyskillz/Stars_Project
+<span id="a">sebi@funnyskillz</span>:<span id="b">~</span><span id="c">$</span> cat stars_project.txt<br/><br/>
+# Authors and acknowledgment"<span id="k">WEBT Project</span>".
+
+- Authors are the following: Sebastijan Bogdan, Sofiane Bounab and Dennis Zhao - 2AHIF 19/20.
+<p># Short Description - Website</p>
+<p>- This is a school project about Stars, Galaxies, Nebulae, how are the stars born, how will a star die and much more.</p>
+<p>- We will also try to explain what stars are, how to recognize some of the stars in the night sky, Nebulae and much more.</p>
+<p> </p>
+<p> # Short Description - App</p>
+<p>- The app will be a .json server which will have a search bar for the user to search for a certain star. </p>
+<p>- The data that will show will be as detailed as possible about that certain star. E.g. name, size, elements, approx. age, is the size
+  enough for a supernova, in which galaxy is the searched star.</p>
+<p>- We will also try to work on finding a nice way to expand our data base as efficiently as possible.</p>
+<p># Info</p>
+<p>- We have 5 branches of pages. Every branch will have it's own unique topic to write about. </p>
+<p>- These Branches will have their own personal design (design will not be very different from the main page) with a set wallpaper. </p>
+<p>- In order to explain stuff more thoroughly we will also add some pictures/animation to get the general idea of how it looks like. </p>
+<p># Usage </p>
+<p> - Mostly written in HTML 5, decorated/designed in CSS.</p>
+<p> - Some code is from Bootstrap.</p>
+<p># Road Map </p>
+<p> - Will be slowly improved over the course of the year.</p>
+<p> - Set up the readme.md file and github repository.</p>
+<p> - Set up the basic skeleton of the website.</p>
+<p> - Set up the navigation bar.</p>
+<p> - Working on the content for the website to keep it as informative as possible but also not too boring.</p>
+<p> - Style and align properly in the website with CSS.</p>
+<p> - Fix writing errors, code, add new images if necessary.</p>
+<p> - Work on the Quiz App</p>
+<p> - Work on the .json server.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<p>Closing Function TTSO_Cammand_003</p>
