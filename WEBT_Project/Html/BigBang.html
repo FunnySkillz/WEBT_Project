@@ -1,50 +1,185 @@
-<!--
-TSSoS._messaging.protocol 1.0.0 OPEN
---------------------------------------------
-
-DATE:          9.13.2019
-FROM:          D.R., Senior IT Specialist, TSS
-
-keep watching
-patience will be rewarded
-
---------------------------------------------
-TSSoS._messaging.protocol 1.0.0 CLOSE
--->
-
-
-<!--
-TSSoS._qualityControl.protocol 1.0.0 OPEN
---------------------------------------------
-
-[DATE]          8.29.2019
-[BUG]           DUPLICATE TRANSMISSION
-[OWNER]         D.R., Senior IT Specialist, TSS
-[DESCRIPTION]   Transmission 06 was showing the results of Transmission 05.
-[NOTE]          Well, don't i feel like an idiot.
-
---------------------------------------------
-TSSoS._qualityControl.protocol 1.0.0 CLOSE
--->
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Big Bang</title>
-    <link rel="stylesheet" type="text/css" href="../Style/style.css"
-  </head>
-  <body>
-    <nav>
-      <div class="wrapper">
-      <ul>
-        <li><a href="time_line.html">Time Line</a> </li>
-        <li><a href="BigBang.html">Big Bang</a> </li>
-        <li><a href="Galaxy.html">Galaxy</a> </li>
-        <li><a href="Nebula.html">Nebualae</a> </li>
-        <li><a href="../quiz_app/index.html">Quiz </a></li>
-      </ul>
-      </div>
-    </nav>
-  </body>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {box-sizing: border-box}
+body
+{
+  font-family: Verdana,
+  sans-serif;
+  margin:0;
+  background-image: url('galaxy_bigbang.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+  <img src="bigbang1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="bigbang2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="bigbang3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+</script>
+
+<h2>The Big Bang Theory</h2>
+
+ <p = style="font-family:Arial">For most of human history, observers of the sky assumed it eternal and unchanging.
+Edwin Hubble dealt this story an experimental blow in the 1920s when his observations showed both that galaxies outside the Milky Way existed, and that their light appeared stretched a sign that they were rushing away from Earth.
+George Lemaitre, a contemporary Belgian physicist, interpreted data from Hubble and others as evidence of an expanding universe, a possibility permitted by Einstein's recently published field equations of general relativity. Thinking backwards, Lemaitre inferred that today's separating galaxies must have started out together in what he called the "primeval atom."
+The first public use of the modern term for Lemaître's idea actually came from a critic English astronomer Fred Hoyle. On March 28, 1949, Hoyle coined the phrase during a defense of his preferred theory of an eternal universe that created matter to cancel out the dilution of expansion. Hoyle said the notion that "all matter of the universe was created in one big bang at a particular time in the remote past," was irrational. In later interviews, Hoyle denied intentionally inventing a slanderous name, but the moniker stuck, much to the frustration of some.
+"The Big Bang is a really bad term," said Paul Steinhardt, a cosmologist at Princeton."The Big Stretch would capture the right idea." The mental image of an explosion causes all kinds of confusion, according to Steinhardt. It implies a central point, an expanding frontier, and a scene where light shrapnel flies faster than heavier chunks. But an expanding universe looks nothing like that, he said. There's no center, no edge, and galaxies large and small all slide apart in the same way (although more distant galaxies move away faster under the cosmologically recent influence of dark energy).
+Regardless of its name, the Big Bang theory found widespread acceptance for its unparalleled ability to explain what we see. The balance of light with particles like protons and neutrons during the first 3 minutes, for instance, let early elements form at a rate predicting the current amounts of helium and other light atoms.
+"There was a small window in time where it was possible for nuclei to form," said Glennys Farrar, a cosmologist at New York University. "After that, the universe kept expanding and they couldn't find each other, and before [the window] it was too hot."
+A cloudy plasma filled the universe for the next 378,000 years, until further cooling let electrons and protons form neutral hydrogen atoms, and the fog cleared.
+The light emitted during this process, which has since stretched into microwaves, is the earliest known object researchers can study directly. Known as the cosmic microwave background (CMB) radiation, many researchers consider it the strongest evidence for the Big Bang.</p>
+
+</body>
 </html>
